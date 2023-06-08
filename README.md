@@ -34,3 +34,10 @@ A Web Application Developed in ASP.NET Core MVC for Sharing Files with Various E
 ![MS-SQL](https://img.shields.io/badge/-MS%20SQL-05122A?style=flat&logo=microsoft-sql-server)&nbsp;
 <br>
 <br>
+## Sample Email For Test
+**Email:** abdellatifosama81@gmail.com
+
+**Password:** @Tefa1234
+<br>
+
+*You Need to Restore Db File to be able to use this account
