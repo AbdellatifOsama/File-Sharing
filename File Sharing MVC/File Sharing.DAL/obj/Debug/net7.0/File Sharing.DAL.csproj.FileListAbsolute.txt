@@ -1,0 +1,28 @@
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.deps.json
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.runtimeconfig.json
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.dll
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.pdb
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.csproj.AssemblyReference.cache
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.AssemblyInfoInputs.cache
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.AssemblyInfo.cs
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.csproj.CoreCompileInputs.cache
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.dll
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\refint\File Sharing.DAL.dll
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.pdb
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.genruntimeconfig.cache
+C:\Users\abdel\source\repos\File Sharing\File Sharing.DAL\obj\Debug\net7.0\ref\File Sharing.DAL.dll
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.deps.json
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.runtimeconfig.json
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.dll
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\bin\Debug\net7.0\File Sharing.DAL.pdb
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.csproj.AssemblyReference.cache
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.AssemblyInfoInputs.cache
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.AssemblyInfo.cs
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.csproj.CoreCompileInputs.cache
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.dll
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\refint\File Sharing.DAL.dll
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.pdb
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\File Sharing.DAL.genruntimeconfig.cache
+D:\Projects Under Construction\File Sharing\File Sharing.DAL\obj\Debug\net7.0\ref\File Sharing.DAL.dll

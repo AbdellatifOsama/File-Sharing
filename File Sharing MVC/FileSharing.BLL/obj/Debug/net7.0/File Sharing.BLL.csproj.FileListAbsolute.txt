@@ -1,0 +1,30 @@
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.deps.json
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.dll
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.pdb
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.DAL.dll
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.DAL.pdb
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.AssemblyReference.cache
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.AssemblyInfoInputs.cache
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.AssemblyInfo.cs
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.CoreCompileInputs.cache
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.CopyComplete
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.dll
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\refint\File Sharing.BLL.dll
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.pdb
+C:\Users\abdel\source\repos\File Sharing\FileSharing.BLL\obj\Debug\net7.0\ref\File Sharing.BLL.dll
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.deps.json
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.dll
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.BLL.pdb
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.DAL.dll
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\bin\Debug\net7.0\File Sharing.DAL.pdb
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.AssemblyReference.cache
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.AssemblyInfoInputs.cache
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.AssemblyInfo.cs
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.CoreCompileInputs.cache
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.csproj.CopyComplete
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.dll
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\refint\File Sharing.BLL.dll
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\File Sharing.BLL.pdb
+D:\Projects Under Construction\File Sharing\FileSharing.BLL\obj\Debug\net7.0\ref\File Sharing.BLL.dll

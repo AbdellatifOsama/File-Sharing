@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Not Found";
+    Layout = "_ErrorLayout";
+}
+
+<div class="pb-5">
+    <p class="text-primary" style="font-size:230px;font-weight:700;">Oops!</p>
+    <div class="text-center">
+        <p class="mb-0" style="font-weight:600; font-size:32px;">404 - Page Not Found</p>
+    </div>
+    <div class="text-center">
+        <p class="mb-0">
+            The page you are looking for might have been removed
+        </p>
+        <p>
+            had its name changed or is temporarily unavailable.
+        </p>
+    </div>
+    <div class="text-center">
+        <a class="btn btn-primary text-uppercase fw-semibold" asp-controller="home" asp-action="index">Go to Home Page</a>
+    </div>
+</div>

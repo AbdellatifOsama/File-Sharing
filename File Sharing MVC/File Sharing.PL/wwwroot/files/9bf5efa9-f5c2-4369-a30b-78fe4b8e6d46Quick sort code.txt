@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+
+void QuickSort(int arr[], int start, int end)
+{
+	int left = start;
+	int right = end;
+	int pivot = left;
+
+	while (left != right)
+	{
+		if (pivot == left)
+		{
+			if (arr[pivot] <= arr[right])
+				right--;
+			else
+			{
+				swap(arr[pivot], arr[right]);
+				pivot = right;
+			}
+		}
+		else if (pivot == right)
+		{
+			if (arr[pivot] >= arr[left])
+				left++;
+			else {
+				swap(arr[pivot], arr[left]);
+				pivot = left;
+			}
+		}
+
+	}
+
+		if (start < pivot)
+			QuickSort(arr, start, pivot - 1);
+		if (end > pivot)
+			QuickSort(arr, pivot + 1, end);
+
+}
+
+void main()
+{
+	int arr[] = { 7,4,3,2,19,2,8 };
+	int size = sizeof(arr) / sizeof(arr[0]);
+
+	QuickSort(arr, 0, size - 1);
+
+	for (int i = 0; i < size; i++)
+		cout << arr[i] << " ";
+	cout << endl;
+
+	system("pause");
+}

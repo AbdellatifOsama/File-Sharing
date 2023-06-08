@@ -1,0 +1,42 @@
+﻿@model RegisterViewModel
+@{
+    Layout = "AccountLayout";
+    ViewData["Title"] = "Register";
+}
+<div class="text-center mb-4 fw-bold">
+    <h1>Sign Up</h1>
+</div>
+<form asp-controller="account" asp-action="register" method="post">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <!-- User Name input -->
+    <div class="form-outline mb-4">
+        <input asp-for="@Model.Name" class="form-control form-control-lg"
+               placeholder="User Name" />
+    </div>
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input asp-for="@Model.Email" class="form-control form-control-lg"
+               placeholder="Email Address" />
+    </div>
+    <!-- Phone Number -->
+    <div class="form-outline mb-4">
+        <input asp-for="@Model.phoneNumber" class="form-control form-control-lg"
+               placeholder="Phone Number" type="number" />
+    </div>
+    <!-- Password input -->
+    <div class="form-outline mb-3">
+        <input asp-for="@Model.Password" class="form-control form-control-lg"
+               placeholder="password" />
+    </div>
+    <!-- Password Confirmation input -->
+    <div class="form-outline mb-3">
+        <input asp-for="@Model.ConfirmPassword" class="form-control form-control-lg"
+               placeholder="Confirm password" />
+    </div>
+    <div class="text-center text-lg-start mt-4 pt-2">
+        <button type="submit" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">
+            Sign Up
+        </button>
+    </div>
+</form>

@@ -1,0 +1,41 @@
+﻿@model Task<IEnumerable<FileEntity>>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home";
+}
+<div class="text-center my-3">
+    <h2 class="text-primary search-heading">Search Files</h2>
+</div>
+<form class="w-75 mx-auto my-3 d-flex" asp-controller="home" asp-action="search" method="get">
+    <input class="form-control rounded-0 rounded-start" style="box-shadow:none" type="search" name="q" placeholder="Search By Name" id="SearchInput" />
+    <button class="btn btn-primary px-3 d-flex align-items-center rounded-0 rounded-end" type="submit">
+        <span>Search</span>
+        <i class="fa-solid fa-magnifying-glass ms-2"></i>
+    </button>
+</form>
+<div class="text-center mt-4">
+    <h2 class="text-primary search-heading">Popular Downloads</h2>
+</div>
+<div class="mt-4">
+    @foreach (var item in Model.Result)
+    {
+        <div class="d-flex align-items-center justify-content-between mb-3 position-relative preview-line">
+            <div>
+                @if (item.ContentType.Contains("image"))
+                {
+                    <img src="~/files/@item.Name" width="40px" height="40px" alt="File Name" />
+                }
+                else
+                {
+                    <img src="~/free-file-icon-1453-thumb.png" width="40px" height="40px" alt="File Icon">
+                }
+            </div>
+            <div>
+                <p class="mb-0">@item.Name.Substring(36)</p>
+            </div>
+            <div>
+                <span class="fw-bold">Downloads: </span>@item.DownloadsCount
+            </div>
+        </div>
+    }
+</div>

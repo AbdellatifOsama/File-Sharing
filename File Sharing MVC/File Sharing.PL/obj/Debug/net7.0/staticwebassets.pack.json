@@ -1,0 +1,161 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\File Sharing.PL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\File Sharing.PL.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\files\\1b2b8ed2-1a69-4842-9532-8a5f2dd485c9UserAvater.png",
+      "PackagePath": "staticwebassets\\files\\1b2b8ed2-1a69-4842-9532-8a5f2dd485c9UserAvater.png"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\files\\444f5a04-4f53-47e3-8954-126c616815f2newspaper-free-template.jpg",
+      "PackagePath": "staticwebassets\\files\\444f5a04-4f53-47e3-8954-126c616815f2newspaper-free-template.jpg"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\files\\48e8432f-d820-462c-8c1c-9ddf8263a7b0NetAcad Learning Transcript (2).pdf",
+      "PackagePath": "staticwebassets\\files\\48e8432f-d820-462c-8c1c-9ddf8263a7b0NetAcad Learning Transcript (2).pdf"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\files\\9bf5efa9-f5c2-4369-a30b-78fe4b8e6d46Quick sort code.txt",
+      "PackagePath": "staticwebassets\\files\\9bf5efa9-f5c2-4369-a30b-78fe4b8e6d46Quick sort code.txt"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\files\\d3670714-213e-43de-85c4-6eba59c13bf6insertion sort code.txt",
+      "PackagePath": "staticwebassets\\files\\d3670714-213e-43de-85c4-6eba59c13bf6insertion sort code.txt"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\free-file-icon-1453-thumb.png",
+      "PackagePath": "staticwebassets\\free-file-icon-1453-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects Under Construction\\File Sharing\\File Sharing.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.File Sharing.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.File Sharing.PL.props",
+      "PackagePath": "build\\File Sharing.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.File Sharing.PL.props",
+      "PackagePath": "buildMultiTargeting\\File Sharing.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.File Sharing.PL.props",
+      "PackagePath": "buildTransitive\\File Sharing.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

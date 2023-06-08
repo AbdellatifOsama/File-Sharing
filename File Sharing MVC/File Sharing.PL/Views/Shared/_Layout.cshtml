@@ -1,0 +1,155 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> signingmanager;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="author" content="Abdellatif Osama">
+    <meta name="keywords" content="file,sharing,upload,download">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    @*Navbar Start*@
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+            <div class="container">
+                <a class="navbar-brand brand-name" asp-controller="home" asp-action="index">File Sharing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-links">
+                        <li class="nav-item" id="home">
+                            <a class="nav-link" asp-controller="home" asp-action="index">Home</a>
+                        </li>
+                        <li class="nav-item" id="privacy">
+                            <a class="nav-link" asp-controller="home" asp-action="privacy">Privacy</a>
+                        </li>
+                        @if (signingmanager.IsSignedIn(User))
+                        {
+                            <li class="nav-item" id="upload">
+                                <a class="nav-link" asp-controller="file" asp-action="upload">Upload</a>
+                            </li>
+                        }
+                        <li class="nav-item" id="browse">
+                            <a class="nav-link" asp-controller="home" asp-action="browse">Browse</a>
+                        </li>
+                        @if (!(signingmanager.IsSignedIn(User)))
+                        {
+                            <li class="nav-item" id="about">
+                                <a class="nav-link" asp-controller="home" asp-action="about">About</a>
+                            </li>
+                        }
+                        <li class="nav-item" id="contacts">
+                            <a class="nav-link" asp-controller="home" asp-action="contacts">Contacts</a>
+                        </li>
+                    </ul>
+                    @if (signingmanager.IsSignedIn(User))
+                    {
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                @(User?.Identity?.Name)
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="file" asp-action="myuploads">My Uploads</a></li>
+                                <li><a class="dropdown-item" asp-controller="account" asp-action="logout">Logout</a></li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <ul class="navbar-nav navbar-links">
+                            <li>
+                                <a class="nav-link" asp-controller="account" asp-action="login">Login</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" asp-controller="account" asp-action="register">Register</a>
+                            </li>
+                        </ul>
+
+                    }
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    @*Navbar End*@
+
+    @*Main Page Start*@
+    <div class="container">
+        <main class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @*Main Page End*@
+
+    @*Footer Start*@
+    <footer class="mt-auto bg-primary text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container px-4 pt-3">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12">
+                    <h5 class="text-uppercase">File Sharing</h5>
+                    <p>
+                        File sharing allows users to use software that connects into a network to search for shared files from other users. You are allowed to download any of the content that is on the file sharing account
+                    </p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase">Language</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white text-decoration-none">English</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white text-decoration-none">Arabic</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase mb-0">Contacts Information</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li class="my-2 position-relative">
+                            <a class="footer-items text-decoration-none"><i class="fa-solid fa-house text-white me-2"></i>Cairo Egypt</a>
+                        </li>
+                        <li class="mb-2 position-relative">
+                            <a class="footer-items text-decoration-none" href="mailto:abdellatifosama81@gmail.com"><i class="fa-solid fa-envelope text-white me-2"></i>abdellatifosama81@gmail.com</a>
+                        </li>
+                        <li class="mb-2 position-relative">
+                            <a class="last-footer-items text-decoration-none"><i class="fa-solid fa-phone text-white me-2"></i>(+20)1220240677</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Copyright © 2021 Designed by Abdellatif Osama. All rights reserved
+        </div>
+        <!-- Copyright -->
+    </footer>
+    @*Footer End*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts" , false)
+</body>
+</html>

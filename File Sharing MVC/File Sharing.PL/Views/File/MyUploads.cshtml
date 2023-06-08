@@ -1,0 +1,75 @@
+﻿@model IEnumerable<FileEntity>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "My Uploads";
+}
+<div class="my-4">
+    <h2 class="text-secondary position-relative preview-line fw-bold">My Uploads</h2>
+</div>
+@foreach (var item in Model)
+{
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                @if (item.ContentType.Contains("image"))
+                {
+                    <img src="~/files/@item.Name" class="img-fluid rounded-start" alt="File Name" style="height:100%;max-height:310px; width:100%">
+                }
+                else
+                {
+                    <img src="~/free-file-icon-1453-thumb.png" style="height:100%;max-height:310px; width:100%" class="img-fluid rounded-start" alt="File Icon">
+                }
+            </div>
+            <div class="col-md-8">
+                <div class="card-body d-flex flex-column justify-content-between h-100">
+                    <h5 class="card-title">@item.Name.Substring(36)</h5>
+                    <p class="card-text">
+                        @if (item.Size / 1024 < 1024)
+                        {
+                            <span>Size:</span> <span class="fw-bold">@(item.Size / 1024) KB</span>
+                        }
+                        else if (item.Size / 1024 > 1024)
+                        {
+                            <span>Size:</span> <span class="fw-bold">@(item.Size / (1024 * 1024)) MB</span>
+                        }
+                        else
+                        {
+                            <span>Size:</span> <span class="fw-bold">@(item.Size) Byte</span>
+                        }
+                    </p>
+                    <p class="card-text">
+                        Content Type: <span class="fw-bold">@(item.ContentType)</span>
+                    </p>
+                    <p class="card-text">
+                        Download times: <span class="fw-bold">@(item.DownloadsCount)</span>
+                    </p>
+                    <p class="card-text"><small class="text-muted">@item.UploadDate</small></p>
+                    <div class="d-flex justify-content-between">
+                        <a href="~/files/@item.Name" class="btn btn-primary text-decoration-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Share <i class="ms-2 fa-solid fa-share"></i></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Download Link</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-primary bg-opacity-10">
+                                        https://localhost:44353/file/downloadfile/@(item.Name)
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Done</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="d-flex flex-row-reverse" asp-action="download" asp-controller="file" method="get">
+                            <input name="fileName" value="@item.Name" hidden type="hidden" />
+                            <button type="submit" class="btn btn-primary text-decoration-none">Download</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

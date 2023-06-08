@@ -1,0 +1,24 @@
+﻿@model ContactEntity
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Contacts";
+}
+<form class="d-flex justify-content-center mt-5" asp-action="Contacts" asp-controller="home" method="post">
+    <div class="w-50">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" asp-for="Name"></label>
+            <input asp-for="Name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" for="exampleFormControlInput1" class="form-label"></label>
+            <input asp-for="Email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Message" for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea asp-for="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary flex-end">Submit</button>
+        </div>
+    </div>
+</form>

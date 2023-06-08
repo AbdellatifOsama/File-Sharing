@@ -1,0 +1,12 @@
+﻿@model IEnumerable<FileEntity>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Browse";
+}
+<div class="my-4">
+    <h2 class="text-secondary position-relative preview-line fw-bold">Browse Files</h2>
+</div>
+@foreach (var item in Model)
+{
+    <partial name="PartialViews/_SearchBrowsePartialView" model="@item" />
+}

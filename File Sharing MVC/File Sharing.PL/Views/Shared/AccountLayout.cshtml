@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Abdellatif Osama">
+    <meta name="description" content="File Sharing">
+    <meta name="keywords" content="file,sharing,upload,download">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+</head>
+<body class="d-flex flex-column w-100 vh-100">
+    <section>
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-custom">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                         class="img-fluid" alt="account image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <footer class="mt-auto bg-primary text-white text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container px-4 pt-3">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12">
+                        <h5 class="text-uppercase">File Sharing</h5>
+                        <p>
+                           File sharing allows users to use software that connects into a network to search for shared files from other users. You are allowed to download any of the content that is on the file sharing account
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase">Language</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">
+                                <a href="#!" class="text-white text-decoration-none">English</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-white text-decoration-none">Arabic</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-uppercase mb-0">Contacts Information</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="my-2 position-relative">
+                                <a class="footer-items text-decoration-none"><i class="fa-solid fa-house text-white me-2"></i>Cairo Egypt</a>
+                            </li>
+                            <li class="mb-2 position-relative">
+                                <a class="footer-items text-decoration-none" href="mailto:abdellatifosama81@gmail.com"><i class="fa-solid fa-envelope text-white me-2"></i>abdellatifosama81@gmail.com</a>
+                            </li>
+                            <li class="mb-2 position-relative">
+                                <a class="last-footer-items text-decoration-none"><i class="fa-solid fa-phone text-white me-2"></i>(+20)1220240677</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                 Copyright © 2021 Designed by Abdellatif Osama. All rights reserved
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </section>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts" , false)
+</body>
+</html>
